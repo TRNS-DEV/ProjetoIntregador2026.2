@@ -10,7 +10,6 @@ function App() {
   const [contador, setContador]=useState(0);
   function increment(){
     setContador(contador+1);
-  
   }
   return (
     <>
@@ -36,7 +35,6 @@ function App() {
           className="counter"
           onClick={() => setCount((count) => count + 1)}
         >
-          Count is {count}
         </button>
       </section>
 
